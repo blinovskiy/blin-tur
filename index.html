@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="ru" class="html">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Блин-Тур</title>
+   <meta name="description" content="Блин-тур - это уютное и стильное заведение, расположенное в самом сердце города. Здесь каждый гость сможет окунуться в атмосферу русского гостеприимства и насладиться вкуснейшими блинами с разнообразными начинками.">
+   <link rel="stylesheet" href="css/style.min.css">
+
+   <link rel="apple-touch-icon" sizes="180x180" href="./doc/favicon/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="./doc/favicon/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="./doc/favicon/favicon-16x16.png">
+   <link rel="manifest" href="./doc/favicon/site.webmanifest">
+   <link rel="mask-icon" href="./doc/favicon/safari-pinned-tab.svg" color="#5bbad5">
+   <meta name="msapplication-TileColor" content="#da532c">
+   <meta name="theme-color" content="#ffffff">
+</head>
+
+<body class="body">
+   <div class="wrapper">
+      <header class="header">
+   <div class="header__wrapper">
+      <div class="header__container container">
+         <nav class="header__nav nav">
+            <ul class="nav__list ul">
+               <li class="nav__item"><a href="#about" class="nav__link a" aria-label="Перейти к секции о нас">О нас</a></li>
+               <li class="nav__item"><a href="#menu" class="nav__link a" aria-label="Перейти к секции меню">Меню</a></li>
+               <li class="nav__item nav__item--logo"><a href="/" class="logo a" aria-label="Перейти на главную страницу"><img src="img/logo.svg" alt="Логотип" class="logo__img img"></a></li>
+               <li class="nav__item"><a href="#testimonials" class="nav__link a" aria-label="Перейти к секции отзывы">Отзывы</a></li>
+               <li class="nav__item"><a href="#contacts" class="nav__link a" aria-label="Перейти к секции контакты">Контакты</a></li>
+            </ul>
+         </nav>
+         <button class="header__burger burger button" aria-label="Открыть меню">
+            <span class="burger__line"></span><span class="burger__line"></span><span class="burger__line"></span>
+         </button>
+      </div>
+   </div>
+</header>
+      <main class="main">
+         <section class="hero">
+   <div class="container">
+      <h1 class="hero__title title title--1">Блинное настроение, радость в каждом кусочке!</h1>
+   </div>
+</section>         
+         <section class="about" id="about">
+   <div class="about__container container">
+      <h2 class="about__title title title--2" data-aos="fade-up">О нас</h2>
+      <span class="about__subtitle text text--medium" data-aos="fade-up" data-aos-duration="1000">Добро пожаловать в наш уютный уголок!</span>
+      <ul class="about__list ul">
+         <li class="about__item" data-aos="fade-right" data-aos-duration="1000">
+            <svg class="about__item-img img">
+               <use href="img/sprite.svg#heart"></use>
+            </svg>
+            <span class="about__item-text text text--regular">Мы предлагаем вам насладиться разнообразием вкусов и ароматов.</span>
+         </li>
+         <li class="about__item" data-aos="fade-left" data-aos-duration="1000">
+            <svg class="about__item-img img">
+               <use href="img/sprite.svg#people"></use>
+            </svg>
+            <span class="about__item-text text text--regular"> Наши блины готовятся только из свежих и натуральных ингредиентов, чтобы вы могли насладиться их неповторимым вкусом.</span>
+         </li>
+         <li class="about__item" data-aos="fade-up" data-aos-duration="1000">
+            <svg class="about__item-img img">
+               <use href="img/sprite.svg#medal"></use>
+            </svg>
+            <span class="about__item-text text text--regular">Мы гордимся тем, что наша блинная стала местом, где люди могут насладиться вкусной едой и провести время в приятной атмосфере.</span>
+         </li>
+         <li class="about__item" data-aos="fade-up" data-aos-duration="1000">
+            <svg class="about__item-img img">
+               <use href="img/sprite.svg#location"></use>
+            </svg>
+            <span class="about__item-text text text--regular">Приходите и убедитесь сами!</span>
+         </li>
+      </ul>
+   </div>
+</section>         
+         <section class="menu" id="menu">
+   <div class="menu__container container">
+      <h2 class="menu__title title title--2" data-aos="fade-up">Меню</h2>
+      <ul class="menu__list ul">
+         <li class="menu__item menu-item" data-aos="zoom-in-up">
+            <picture>
+               <source srcset="img/menu__img-1.webp" type="image/webp">
+               <img src="img/menu__img-1.png" alt="Классические блины" class="menu-item__img img">
+            </picture>
+            <div class="menu-item__wrapper">
+               <span class="menu-item__name text">Классические блины</span>
+               <p class="menu-item__text text text--regular p">Золотистые тонкие блины, приготовленные на молоке и муке. Подаются со сметаной, медом или вареньем.</p>
+               <div class="menu-item__row">
+                  <span class="menu-item__price text">
+                     100 
+                     <span class="menu-item__price menu-item__price--small">₽</span>
+                  </span>
+                  <span class="menu-item__weight text">
+                     150 
+                     <span class="menu-item__weight menu-item__weight--small">гр</span>
+                  </span> 
+               </div>
+            </div>
+         </li>
+         <li class="menu__item menu-item" data-aos="zoom-in-up">
+            <picture>
+               <source srcset="img/menu__img-2.webp" type="image/webp">
+               <img src="img/menu__img-2.png" alt="Блины с творогом" class="menu-item__img img">
+            </picture>
+            <div class="menu-item__wrapper">
+               <span class="menu-item__name text">Блины с творогом</span>
+               <p class="menu-item__text text text--regular p">Вкусные и сытные блины с нежной творожной начинкой — прекрасный выбор для завтрака или перекуса.</p>
+               <div class="menu-item__row">
+                  <span class="menu-item__price text">
+                     150 
+                     <span class="menu-item__price menu-item__price--small">₽</span>
+                  </span>
+                  <span class="menu-item__weight text">
+                     200 
+                     <span class="menu-item__weight menu-item__weight--small">гр</span>
+                  </span> 
+               </div>
+            </div>
+         </li>
+         <li class="menu__item menu-item" data-aos="zoom-in-up">
+            <picture>
+               <source srcset="img/menu__img-3.webp" type="image/webp">
+               <img src="img/menu__img-3.png" alt="Блины с ягодами" class="menu-item__img img">
+            </picture>
+            <div class="menu-item__wrapper">
+               <span class="menu-item__name text">Блины с ягодами</span>
+               <p class="menu-item__text text text--regular p">Ароматные блины с сочными ягодами - прекрасное начало дня. Тонкое тесто делает это блюдо настоящим деликатесом.</p>
+               <div class="menu-item__row">
+                  <span class="menu-item__price text">
+                     200 
+                     <span class="menu-item__price menu-item__price--small">₽</span>
+                  </span>
+                  <span class="menu-item__weight text">
+                     200 
+                     <span class="menu-item__weight menu-item__weight--small">гр</span>
+                  </span> 
+               </div>
+            </div>
+         </li>
+         <li class="menu__item menu-item" data-aos="zoom-in-up">
+            <picture>
+               <source srcset="img/menu__img-4.webp" type="image/webp">
+               <img src="img/menu__img-4.png" alt="Блинный пирог" class="menu-item__img img">
+            </picture>
+            <div class="menu-item__wrapper">
+               <span class="menu-item__name text">Блинный пирог</span>
+               <p class="menu-item__text text text--regular p">Блинный пирог с разнообразными ароматными начинками - отличное закусочное блюдо для любого стола.</p>
+               <div class="menu-item__row">
+                  <span class="menu-item__price text">
+                     250 
+                     <span class="menu-item__price menu-item__price--small">₽</span>
+                  </span>
+                  <span class="menu-item__weight text">
+                     300 
+                     <span class="menu-item__weight menu-item__weight--small">гр</span>
+                  </span> 
+               </div>
+            </div>
+         </li>
+         <li class="menu__item menu-item" data-aos="zoom-in-up">
+            <picture>
+               <source srcset="img/menu__img-5.webp" type="image/webp">
+               <img src="img/menu__img-5.png" alt="Блины Зебра" class="menu-item__img img">
+            </picture>
+            <div class="menu-item__wrapper">
+               <span class="menu-item__name text">Блины "Зебра"</span>
+               <p class="menu-item__text text text--regular p">Необычные блины "Зебра" - это яркое блюдо, которое обязательно удивит наших гостей.</p>
+               <div class="menu-item__row">
+                  <span class="menu-item__price text">
+                     200 
+                     <span class="menu-item__price menu-item__price--small">₽</span>
+                  </span>
+                  <span class="menu-item__weight text">
+                     200 
+                     <span class="menu-item__weight menu-item__weight--small">гр</span>
+                  </span> 
+               </div>
+            </div>
+         </li>
+         <li class="menu__item menu-item" data-aos="zoom-in-up">
+            <picture>
+               <source srcset="img/menu__img-6.webp" type="image/webp">
+               <img src="img/menu__img-6.png" alt="Блинные роллы" class="menu-item__img img">
+            </picture>
+            <div class="menu-item__wrapper">
+               <span class="menu-item__name text">Блинные роллы</span>
+               <p class="menu-item__text text text--regular p">Сливочные роллы из блинов - это вкусное и элегантное блюдо, которое идеально подойдет для завтрака или ужина.</p>
+               <div class="menu-item__row">
+                  <span class="menu-item__price text">
+                     400 
+                     <span class="menu-item__price menu-item__price--small">₽</span>
+                  </span>
+                  <span class="menu-item__weight text">
+                     300 
+                     <span class="menu-item__weight menu-item__weight--small">гр</span>
+                  </span> 
+               </div>
+            </div>
+         </li>
+      </ul>
+   </div>
+</section>         
+         <section class="testimonials" id="testimonials">
+   <div class="testimonials__container">
+      <h2 class="testimonials__title title title--2" data-aos="fade-up">Отзывы наших посетителей</h2>
+      <div class="testimonials__swiper swiper" data-aos="flip-down" data-aos-duration="1000">
+         <div class="testimonials__swiper-wrapper swiper-wrapper">
+            <div class="testimonials__slide swiper-slide">
+               <div class="testimonials__card">
+                  <picture class="testimonials__card-img">
+                     <source srcset="img/profile-1.webp" type="image/webp">
+                     <img src="img/profile-1.png" alt="Аватар клиента">
+                  </picture>
+                  <span class="testimonials__card-name">Ольга</span>
+                  <p class="testimonials__card-text text p">Блины в этой блинной - это настоящий шедевр! Они настолько вкусные и ароматные, что просто невозможно устоять. А начинки просто изумительны - каждый найдет что-то для себя. Обязательно вернусь сюда еще раз.</p>
+               </div>
+            </div>
+            <div class="testimonials__slide swiper-slide">
+               <div class="testimonials__card">
+                  <picture class="testimonials__card-img">
+                     <source srcset="img/profile-2.webp" type="image/webp">
+                     <img src="img/profile-2.png" alt="Аватар клиента">
+                  </picture>
+                  <span class="testimonials__card-name">Михаил</span>
+                  <p class="testimonials__card-text text p">Это место стало для меня настоящим открытием! Блины здесь просто восхитительные, а обслуживание на высшем уровне. Рекомендую всем попробовать их фирменный блин с икрой - это нечто!</p>
+               </div>
+            </div>
+            <div class="testimonials__slide swiper-slide">
+               <div class="testimonials__card">
+                  <picture class="testimonials__card-img">
+                     <source srcset="img/profile-3.webp" type="image/webp">
+                     <img src="img/profile-3.png" alt="Аватар клиента">
+                  </picture>
+                  <span class="testimonials__card-name">Светлана</span>
+                  <p class="testimonials__card-text text p">Зашли сюда с друзьями и были приятно удивлены качеством блюд и атмосферой заведения. Блины были очень вкусными и сытными, а выбор начинок порадовал своим разнообразием. Рекомендую всем посетить это место!</p>
+               </div>
+            </div>
+            <div class="testimonials__slide swiper-slide">
+               <div class="testimonials__card">
+                  <picture class="testimonials__card-img">
+                     <source srcset="img/profile-4.webp" type="image/webp">
+                     <img src="img/profile-4.png" alt="Аватар клиента">
+                  </picture>
+                  <span class="testimonials__card-name">Борис</span>
+                  <p class="testimonials__card-text text p">Блинная стала для меня настоящим открытием. Отличное обслуживание, уютная атмосфера и, конечно же, безумно вкусные блины. Всем рекомендую попробовать их фирменный блин с сыром и ветчиной - это просто бомба!</p>
+               </div>
+            </div>
+            <div class="testimonials__slide swiper-slide">
+               <div class="testimonials__card">
+                  <picture class="testimonials__card-img">
+                     <source srcset="img/profile-5.webp" type="image/webp">
+                     <img src="img/profile-5.png" alt="Аватар клиента">
+                  </picture>
+                  <span class="testimonials__card-name">Никита</span>
+                  <p class="testimonials__card-text text p">Зашел сюда случайно и не ожидал, что останусь в таком восторге. Блины тонкие, нежные, а разнообразие начинок позволяет каждому найти что-то по вкусу. Обслуживание быстрое и дружелюбное. Спасибо за прекрасный обед!</p>
+               </div>
+            </div>
+            <div class="testimonials__slide swiper-slide">
+               <div class="testimonials__card">
+                  <picture class="testimonials__card-img">
+                     <source srcset="img/profile-6.webp" type="image/webp">
+                     <img src="img/profile-6.png" alt="Аватар клиента">
+                  </picture>
+                  <span class="testimonials__card-name">Мария</span>
+                  <p class="testimonials__card-text text p">О боже, эти блины просто восхитительны! Шеф-повар знает толк в своем деле. Особенно понравились с начинкой из свежих ягод - пальчики оближешь! Обязательно приду сюда снова.</p>
+               </div>
+            </div>
+         </div>         
+      </div>
+      <div class="testimonials__wrapper">
+         <div class="testimonials__pagination swiper-pagination"></div>
+      </div>
+   </div>
+</section>         
+         <section class="contacts" id="contacts">
+   <div class="contacts__container container">
+      <h2 class="contacts__title title title--2" data-aos="fade-up">Контакты</h2>
+      <div class="contacts__wrapper">
+         <div class="contacts__contacts" data-aos="fade-right" data-aos-duration="800">
+            <h3 class="contacts__contacts-title title title--3">Адрес</h3>
+            <p class="contacts__contacts-text text p">ул. Мира 11</p>
+            <h3 class="contacts__contacts-title title title--3">Телефон</h3>
+            <a href="tel:79123456789" class="contacts__contacts-tel a">+7(912) 345 67 89</a>
+            <h3 class="contacts__contacts-title title title--3">Режим работы</h3>
+            <span class="contacts__contacts-text text p">Ежедневно с 10:00 до 21:00</span>
+            <ul class="contacts__contacts-list ul">
+               <li class="contacts__contacts-item">
+                  <a href="https://vk.com/pancake_tour" target="_blank" class="contacts__contacts-link a">
+                     <svg class="contacts__contacts-img">
+                        <use href="img/sprite.svg#vk"></use>
+                     </svg>
+                  </a>
+               </li>
+            </ul>
+         </div>
+         <div class="contacts__map" data-aos="fade-left" data-aos-duration="800">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2041.7379656413668!2d39.888563!3d59.220395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46ae98285f357af7%3A0xbf6ec7a49640ad9d!2z0YPQuy4g0JzQuNGA0LAsIDExLCDQktC-0LvQvtCz0LTQsCwg0JLQvtC70L7Qs9C-0LTRgdC60LDRjyDQvtCx0LsuLCAxNjAwMDA!5e0!3m2!1sru!2sru!4v1711396815871!5m2!1sru!2sru" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="contacts__map-map"></iframe>
+         </div>
+      </div>
+   </div>
+</section>         
+      </main>
+   </div>
+
+   <script src="js/app.min.js"></script>
+   <!-- <script src="js/app2.min.js"></script> -->
+</body>
+</html>
